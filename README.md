@@ -1,6 +1,10 @@
 # Yating Yu
 
-Data Science | Geospatial Analytics | Optimisation  
+Currently interested in:
+- Geospatial analytics roles
+- Decision-support analyst positions
+- Applied AI / modelling roles
+
 Christchurch, New Zealand  
 
 ---
