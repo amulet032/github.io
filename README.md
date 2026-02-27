@@ -36,16 +36,6 @@ Research project exploring spectral clustering techniques for image segmentation
 
 [View Repository](#)
 
----
-
-### 3. Portfolio & Decision Support Analytics
-Analytical work focused on supporting programme and portfolio-level insights.
-
-- Data cleaning and validation  
-- Trend and risk analysis  
-- Reporting for non-technical stakeholders  
-
-[View Repository](#)
 
 ---
 
