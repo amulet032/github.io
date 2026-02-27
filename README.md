@@ -34,7 +34,7 @@ Research project exploring spectral clustering techniques for image segmentation
 - Evaluated model performance using visual & statistical metrics  
 - Compared clustering approaches  
 
-[View Repository](#)
+[View Repository](https://github.com/amulet032/SpectralClustering/tree/main)
 
 
 ---
