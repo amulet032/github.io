@@ -61,4 +61,4 @@ Analytical work focused on supporting programme and portfolio-level insights.
 ## Contact
 
 Email: mira.yu@outlook.com  
-LinkedIn: [https://www.linkedin.com/in/yating-yu-476ba17b/]
+LinkedIn: https://www.linkedin.com/in/yating-yu-476ba17b/
