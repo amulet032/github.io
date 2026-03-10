@@ -8,9 +8,9 @@ Christchurch, New Zealand
 
 ## About Me
 
-I am a data science graduate with a background in applied mathematics, optimisation, and applied analytics. 
+I am a Master of Applied Data Science graduate with a background in applied mathematics, optimisation, and applied analytics.
 
-My work focuses on turning complex, imperfect data into clear decision-support insights through geospatial analysis, modelling, and practical data workflows.
+My work focuses on transforming complex and imperfect data into clear, practical decision-support insights through geospatial analysis, modelling, and data-driven problem solving.
 
 ---
 
