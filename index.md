@@ -7,7 +7,7 @@ Christchurch, New Zealand
 
 ## Navigation
 
-- [Projects](projects.md)
+- [Projects](projects.html)
 - [CV](cv.md)
 - [LinkedIn](https://www.linkedin.com/in/yating-yu-476ba17b/)
 
