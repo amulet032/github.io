@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Yating Yu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      line-height: 1.6;
+      color: #222;
+      background: #fafafa;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #666;
+      margin-bottom: 32px;
+    }
+
+    .nav {
+      margin-bottom: 32px;
+    }
+
+    .nav a {
+      margin-right: 18px;
+      text-decoration: none;
+      color: #0056b3;
+      font-weight: 600;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+
+    .tag-group {
+      margin: 12px 0 16px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #eef4ff;
+      color: #1f4b99;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      margin: 4px 6px 0 0;
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 14px;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #0056b3;
+      font-weight: 600;
+    }
+
+    .coming-soon {
+      color: #777;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <h1>Projects</h1>
+  <p class="subtitle">Selected work in geospatial analytics, network analysis, and machine learning.</p>
+
+  <div class="nav">
+    <a href="/">Home</a>
+    <a href="/cv">CV</a>
+    <a href="https://github.com/amulet032" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/yating-yu-476ba17b/" target="_blank">LinkedIn</a>
+  </div>
+
+  <div class="projects-grid">
+    <div class="card">
+      <h2>State Highway Network Disruption Analysis</h2>
+      <p>
+        Data-driven analysis of how disruptions affect accessibility and traffic diversion
+        within the New Zealand state highway network.
+      </p>
+      <div class="tag-group">
+        <span class="tag">Python</span>
+        <span class="tag">FME</span>
+        <span class="tag">Geospatial Analytics</span>
+        <span class="tag">Network Analysis</span>
+      </div>
+      <ul>
+        <li>Built a geospatial analysis workflow for disruption scenarios</li>
+        <li>Analysed origin–destination flows and accessibility impacts</li>
+        <li>Produced decision-support visualisations</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/amulet032/Road-Network-Disruption-Analysis" target="_blank">View Repository</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Spectral Clustering for Image Segmentation</h2>
+      <p>
+        Research project exploring graph-based spectral clustering methods
+        for image segmentation.
+      </p>
+      <div class="tag-group">
+        <span class="tag">Python</span>
+        <span class="tag">Machine Learning</span>
+        <span class="tag">Image Segmentation</span>
+        <span class="tag">Spectral Clustering</span>
+      </div>
+      <ul>
+        <li>Implemented an end-to-end segmentation pipeline</li>
+        <li>Constructed similarity graphs and Laplacian matrices</li>
+        <li>Evaluated segmentation quality with visual and statistical metrics</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/amulet032/SpectralClustering" target="_blank">View Repository</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Flower Image Classification</h2>
+      <p class="coming-soon">
+        Deep learning classification project using the Oxford Flowers 102 dataset.
+      </p>
+      <div class="tag-group">
+        <span class="tag">TensorFlow</span>
+        <span class="tag">CNN</span>
+        <span class="tag">Transfer Learning</span>
+      </div>
+      <p class="coming-soon">Project details coming soon.</p>
+    </div>
+
+    <div class="card">
+      <h2>Music Recommendation System</h2>
+      <p class="coming-soon">
+        Collaborative filtering recommender system based on user listening behaviour.
+      </p>
+      <div class="tag-group">
+        <span class="tag">Python</span>
+        <span class="tag">Recommendation Systems</span>
+        <span class="tag">Collaborative Filtering</span>
+      </div>
+      <p class="coming-soon">Project details coming soon.</p>
+    </div>
+  </div>
+</body>
+</html>
