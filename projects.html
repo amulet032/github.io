@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 960px;
+      max-width: 1100px;
       margin: 0 auto;
       padding: 40px 20px;
       line-height: 1.6;
@@ -37,21 +37,54 @@
 
     .projects-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
     }
 
     .card {
       background: white;
       border: 1px solid #ddd;
-      border-radius: 12px;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .image-placeholder {
+      height: 180px;
+      background: linear-gradient(135deg, #eef4ff, #f7f9fc);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #5b6b83;
+      font-size: 0.95rem;
+      font-weight: 600;
+      border-bottom: 1px solid #e5e5e5;
+      text-align: center;
+      padding: 16px;
+    }
+
+    .card-content {
       padding: 20px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
 
     .card h2 {
       margin-top: 0;
+      margin-bottom: 10px;
       font-size: 1.2rem;
+    }
+
+    .summary {
+      color: #444;
+      margin-bottom: 14px;
+    }
+
+    .section-title {
+      font-weight: 700;
+      margin-top: 16px;
+      margin-bottom: 8px;
+      font-size: 0.95rem;
     }
 
     .tag-group {
@@ -68,18 +101,64 @@
       margin: 4px 6px 0 0;
     }
 
-    .links a {
+    ul {
+      margin: 8px 0 0 0;
+      padding-left: 20px;
+    }
+
+    .highlight-box {
+      margin-top: 14px;
+      padding: 12px 14px;
+      background: #f8fbff;
+      border-left: 4px solid #7da2d6;
+      border-radius: 8px;
+      color: #333;
+      font-size: 0.95rem;
+    }
+
+    .links {
+      margin-top: 18px;
+    }
+
+    .button {
       display: inline-block;
-      margin-right: 14px;
-      margin-top: 10px;
+      margin-right: 10px;
+      margin-top: 8px;
       text-decoration: none;
-      color: #0056b3;
       font-weight: 600;
+      padding: 9px 14px;
+      border-radius: 8px;
+    }
+
+    .button-primary {
+      background: #0056b3;
+      color: white;
+    }
+
+    .button-secondary {
+      background: #eef4ff;
+      color: #1f4b99;
     }
 
     .coming-soon {
       color: #777;
       font-style: italic;
+    }
+
+    .status {
+      display: inline-block;
+      margin-bottom: 10px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #245c2a;
+      background: #eaf7ec;
+      padding: 4px 8px;
+      border-radius: 999px;
+    }
+
+    .status-planned {
+      color: #7a5a00;
+      background: #fff6db;
     }
   </style>
 </head>
@@ -88,81 +167,157 @@
   <p class="subtitle">Selected work in geospatial analytics, network analysis, and machine learning.</p>
 
   <div class="nav">
-    <a href="/">Home</a>
-    <a href="/cv">CV</a>
+    <a href="/index.html">Home</a>
+    <a href="/cv.html">CV</a>
     <a href="https://github.com/amulet032" target="_blank">GitHub</a>
     <a href="https://www.linkedin.com/in/yating-yu-476ba17b/" target="_blank">LinkedIn</a>
   </div>
 
   <div class="projects-grid">
     <div class="card">
-      <h2>State Highway Network Disruption Analysis</h2>
-      <p>
-        Data-driven analysis of how disruptions affect accessibility and traffic diversion
-        within the New Zealand state highway network.
-      </p>
-      <div class="tag-group">
-        <span class="tag">Python</span>
-        <span class="tag">FME</span>
-        <span class="tag">Geospatial Analytics</span>
-        <span class="tag">Network Analysis</span>
+      <div class="image-placeholder">
+        Project image placeholder<br>
+        Network map / disruption impact visual
       </div>
-      <ul>
-        <li>Built a geospatial analysis workflow for disruption scenarios</li>
-        <li>Analysed origin–destination flows and accessibility impacts</li>
-        <li>Produced decision-support visualisations</li>
-      </ul>
-      <div class="links">
-        <a href="https://github.com/amulet032/Road-Network-Disruption-Analysis" target="_blank">View Repository</a>
+      <div class="card-content">
+        <div class="status">Completed Project</div>
+        <h2>State Highway Network Disruption Analysis</h2>
+        <p class="summary">
+          Data-driven analysis of how transport disruptions affect accessibility,
+          diversion patterns, and critical links within the New Zealand state highway network.
+        </p>
+
+        <div class="tag-group">
+          <span class="tag">Python</span>
+          <span class="tag">FME</span>
+          <span class="tag">Geospatial Analytics</span>
+          <span class="tag">Network Analysis</span>
+          <span class="tag">Decision Support</span>
+        </div>
+
+        <div class="section-title">What I did</div>
+        <ul>
+          <li>Built a geospatial analysis workflow for disruption scenario assessment</li>
+          <li>Analysed origin–destination flows and network accessibility impacts</li>
+          <li>Structured transport and spatial data for analytical use</li>
+          <li>Produced decision-support visualisations and documented modelling assumptions</li>
+        </ul>
+
+        <div class="section-title">Why it matters</div>
+        <div class="highlight-box">
+          This project shows my ability to work with messy real-world infrastructure data
+          and translate technical analysis into practical insights for transport decision-making.
+        </div>
+
+        <div class="links">
+          <a class="button button-primary" href="https://github.com/amulet032/Road-Network-Disruption-Analysis" target="_blank">View Repository</a>
+        </div>
       </div>
     </div>
 
     <div class="card">
-      <h2>Spectral Clustering for Image Segmentation</h2>
-      <p>
-        Research project exploring graph-based spectral clustering methods
-        for image segmentation.
-      </p>
-      <div class="tag-group">
-        <span class="tag">Python</span>
-        <span class="tag">Machine Learning</span>
-        <span class="tag">Image Segmentation</span>
-        <span class="tag">Spectral Clustering</span>
+      <div class="image-placeholder">
+        Project image placeholder<br>
+        Segmentation output / clustering result
       </div>
-      <ul>
-        <li>Implemented an end-to-end segmentation pipeline</li>
-        <li>Constructed similarity graphs and Laplacian matrices</li>
-        <li>Evaluated segmentation quality with visual and statistical metrics</li>
-      </ul>
-      <div class="links">
-        <a href="https://github.com/amulet032/SpectralClustering" target="_blank">View Repository</a>
+      <div class="card-content">
+        <div class="status">Completed Project</div>
+        <h2>Spectral Clustering for Image Segmentation</h2>
+        <p class="summary">
+          Research project exploring graph-based spectral clustering methods for image segmentation
+          using similarity structures and clustering-based region separation.
+        </p>
+
+        <div class="tag-group">
+          <span class="tag">Python</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Image Segmentation</span>
+          <span class="tag">Spectral Clustering</span>
+          <span class="tag">Research</span>
+        </div>
+
+        <div class="section-title">What I did</div>
+        <ul>
+          <li>Implemented an end-to-end spectral clustering segmentation pipeline</li>
+          <li>Constructed similarity graphs and Laplacian matrices</li>
+          <li>Evaluated segmentation quality with visual and statistical metrics</li>
+          <li>Compared spectral clustering with alternative clustering approaches</li>
+        </ul>
+
+        <div class="section-title">Why it matters</div>
+        <div class="highlight-box">
+          This project demonstrates my ability to connect mathematical modelling
+          with applied machine learning and evaluate methods rigorously.
+        </div>
+
+        <div class="links">
+          <a class="button button-primary" href="https://github.com/amulet032/SpectralClustering" target="_blank">View Repository</a>
+        </div>
       </div>
     </div>
 
     <div class="card">
-      <h2>Flower Image Classification</h2>
-      <p class="coming-soon">
-        Deep learning classification project using the Oxford Flowers 102 dataset.
-      </p>
-      <div class="tag-group">
-        <span class="tag">TensorFlow</span>
-        <span class="tag">CNN</span>
-        <span class="tag">Transfer Learning</span>
+      <div class="image-placeholder">
+        Future project image<br>
+        Classification chart / sample predictions
       </div>
-      <p class="coming-soon">Project details coming soon.</p>
+      <div class="card-content">
+        <div class="status status-planned">In Progress</div>
+        <h2>Flower Image Classification</h2>
+        <p class="summary">
+          Deep learning image classification project using the Oxford Flowers 102 dataset.
+        </p>
+
+        <div class="tag-group">
+          <span class="tag">TensorFlow</span>
+          <span class="tag">CNN</span>
+          <span class="tag">Transfer Learning</span>
+          <span class="tag">Computer Vision</span>
+        </div>
+
+        <div class="section-title">Planned focus</div>
+        <ul>
+          <li>Train and evaluate a flower classification model</li>
+          <li>Compare model performance across architectures</li>
+          <li>Visualise predictions and class-level results</li>
+        </ul>
+
+        <div class="highlight-box coming-soon">
+          Project details and results will be added after final refinement.
+        </div>
+      </div>
     </div>
 
     <div class="card">
-      <h2>Music Recommendation System</h2>
-      <p class="coming-soon">
-        Collaborative filtering recommender system based on user listening behaviour.
-      </p>
-      <div class="tag-group">
-        <span class="tag">Python</span>
-        <span class="tag">Recommendation Systems</span>
-        <span class="tag">Collaborative Filtering</span>
+      <div class="image-placeholder">
+        Future project image<br>
+        Recommendation pipeline / evaluation results
       </div>
-      <p class="coming-soon">Project details coming soon.</p>
+      <div class="card-content">
+        <div class="status status-planned">In Progress</div>
+        <h2>Music Recommendation System</h2>
+        <p class="summary">
+          Collaborative filtering recommender system based on user listening behaviour.
+        </p>
+
+        <div class="tag-group">
+          <span class="tag">Python</span>
+          <span class="tag">Recommendation Systems</span>
+          <span class="tag">Collaborative Filtering</span>
+          <span class="tag">Data Modelling</span>
+        </div>
+
+        <div class="section-title">Planned focus</div>
+        <ul>
+          <li>Build recommendation workflow from interaction data</li>
+          <li>Test collaborative filtering approaches</li>
+          <li>Evaluate recommendation quality and trade-offs</li>
+        </ul>
+
+        <div class="highlight-box coming-soon">
+          Project details and results will be added after final refinement.
+        </div>
+      </div>
     </div>
   </div>
 </body>
