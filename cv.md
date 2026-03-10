@@ -6,7 +6,6 @@ Master of Applied Data Science
 University of Canterbury, New Zealand
 
 Master of Mathematics - Optimization
-
 Royal Institute of Technology, Sweden
 
 ---
