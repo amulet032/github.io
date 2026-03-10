@@ -1,13 +1,16 @@
 # Yating Yu
 
 Data Analyst | Data Scientist | Geospatial Analytics
+
 Christchurch, New Zealand
 
 ---
 
 ## About Me
 
-I am a data science graduate with a background in applied mathematics, optimisation, and applied analytics. My work focuses on turning complex, imperfect data into clear decision-support insights through geospatial analysis, modelling, and practical data workflows.
+I am a data science graduate with a background in applied mathematics, optimisation, and applied analytics. 
+
+My work focuses on turning complex, imperfect data into clear decision-support insights through geospatial analysis, modelling, and practical data workflows.
 
 ---
 
